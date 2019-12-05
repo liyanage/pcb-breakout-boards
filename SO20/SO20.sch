@@ -1,0 +1,207 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 74xx:74HCT244 U1
+U 1 1 5DE89436
+P 4600 2500
+F 0 "U1" H 4600 3481 50  0000 C CNN
+F 1 "74HCT244" H 4600 3390 50  0000 C CNN
+F 2 "Package_SO:SO-20_12.8x7.5mm_P1.27mm" H 4600 2500 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT244.pdf" H 4600 2500 50  0001 C CNN
+	1    4600 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x10_Male J1
+U 1 1 5DE8A29A
+P 3000 2400
+F 0 "J1" H 3108 2981 50  0000 C CNN
+F 1 "Conn_01x10_Male" H 3108 2890 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 3000 2400 50  0001 C CNN
+F 3 "~" H 3000 2400 50  0001 C CNN
+	1    3000 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x10_Male J2
+U 1 1 5DE8C3F0
+P 5900 2400
+F 0 "J2" V 5735 2328 50  0000 C CNN
+F 1 "Conn_01x10_Male" H 5826 2328 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 5900 2400 50  0001 C CNN
+F 3 "~" H 5900 2400 50  0001 C CNN
+	1    5900 2400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4100 2900 3600 2900
+Wire Wire Line
+	3600 2900 3600 2000
+Wire Wire Line
+	3600 2000 3200 2000
+Wire Wire Line
+	5100 2400 5350 2400
+Wire Wire Line
+	5350 3650 3450 3650
+Wire Wire Line
+	3450 3650 3450 2200
+Wire Wire Line
+	3450 2200 3200 2200
+Wire Wire Line
+	3750 2300 3200 2300
+Wire Wire Line
+	4100 2100 3750 2100
+Wire Wire Line
+	3750 2100 3750 2300
+Wire Wire Line
+	3700 2000 3700 2100
+Wire Wire Line
+	3700 2100 3200 2100
+Wire Wire Line
+	3700 2000 4100 2000
+Wire Wire Line
+	5100 2500 5300 2500
+Wire Wire Line
+	5300 3600 3500 3600
+Wire Wire Line
+	3500 3600 3500 2400
+Wire Wire Line
+	3500 2400 3200 2400
+Wire Wire Line
+	3200 2500 3650 2500
+Wire Wire Line
+	3650 2500 3650 2200
+Wire Wire Line
+	3650 2200 4100 2200
+Wire Wire Line
+	5100 2600 5250 2600
+Wire Wire Line
+	5250 3550 3400 3550
+Wire Wire Line
+	3400 3550 3400 2600
+Wire Wire Line
+	3400 2600 3200 2600
+Wire Wire Line
+	3200 2700 3800 2700
+Wire Wire Line
+	3800 2700 3800 2300
+Wire Wire Line
+	3800 2300 4100 2300
+Wire Wire Line
+	5100 2700 5200 2700
+Wire Wire Line
+	5200 2700 5200 3500
+Wire Wire Line
+	5200 3500 3350 3500
+Wire Wire Line
+	3350 3500 3350 2800
+Wire Wire Line
+	3350 2800 3200 2800
+Wire Wire Line
+	3200 2900 3550 2900
+Wire Wire Line
+	3550 2900 3550 3300
+Wire Wire Line
+	3550 3300 4600 3300
+Wire Wire Line
+	5350 2400 5350 3650
+Wire Wire Line
+	5250 2600 5250 3550
+Wire Wire Line
+	4100 2700 4000 2700
+Wire Wire Line
+	4000 2700 4000 3400
+Wire Wire Line
+	4000 3400 5700 3400
+Wire Wire Line
+	5700 3400 5700 2800
+Wire Wire Line
+	5100 2300 5450 2300
+Wire Wire Line
+	5450 2300 5450 2700
+Wire Wire Line
+	5450 2700 5700 2700
+Wire Wire Line
+	4100 2600 3950 2600
+Wire Wire Line
+	3950 2600 3950 3450
+Wire Wire Line
+	3950 3450 5600 3450
+Wire Wire Line
+	5600 3450 5600 2600
+Wire Wire Line
+	5600 2600 5700 2600
+Wire Wire Line
+	5700 2500 5500 2500
+Wire Wire Line
+	5500 2500 5500 2200
+Wire Wire Line
+	5500 2200 5100 2200
+Wire Wire Line
+	4100 2500 3900 2500
+Wire Wire Line
+	3900 2500 3900 3700
+Wire Wire Line
+	3900 3700 5550 3700
+Wire Wire Line
+	5550 3700 5550 2400
+Wire Wire Line
+	5550 2400 5700 2400
+Wire Wire Line
+	5700 2300 5550 2300
+Wire Wire Line
+	5550 2300 5550 2100
+Wire Wire Line
+	5550 2100 5100 2100
+Wire Wire Line
+	4100 2400 3850 2400
+Wire Wire Line
+	3850 2400 3850 3750
+Wire Wire Line
+	3850 3750 5650 3750
+Wire Wire Line
+	5650 3750 5650 2200
+Wire Wire Line
+	5650 2200 5700 2200
+Wire Wire Line
+	5700 2100 5600 2100
+Wire Wire Line
+	5600 2100 5600 2000
+Wire Wire Line
+	5600 2000 5100 2000
+Wire Wire Line
+	4100 3000 4100 3150
+Wire Wire Line
+	4100 3150 5300 3150
+Wire Wire Line
+	5300 1950 5650 1950
+Wire Wire Line
+	5650 1950 5650 2000
+Wire Wire Line
+	5650 2000 5700 2000
+Wire Wire Line
+	5300 1950 5300 2500
+Connection ~ 5300 3150
+Wire Wire Line
+	5300 3150 5300 3600
+Connection ~ 5300 2500
+Wire Wire Line
+	5300 2500 5300 3150
+Wire Wire Line
+	5700 1900 5700 1700
+Wire Wire Line
+	5700 1700 4600 1700
+$EndSCHEMATC
